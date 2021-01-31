@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:Stopwatches"
+             x:Class="Stopwatches.MainPage">
+
+    <StackLayout>
+        <Label x:Name="Stopwatches" FontSize="40"
+               HorizontalOptions="CenterAndExpand"  VerticalOptions="CenterAndExpand">
+            
+        </Label>
+        <Button x:Name="butStart" Clicked="butStart_Clicked" Text="Start" ></Button>
+        <Button x:Name="butStop" Clicked="butStop_Clicked" Text="Stop" ></Button>
+        <Button x:Name="butReset" Clicked="butReset_Clicked" Text="Reset" ></Button>
+    </StackLayout>
+
+</ContentPage>
